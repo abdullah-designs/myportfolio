@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdullah Alaradi - Contact</title>
+  <style>
+    /* === Embedded main.css === */
+    body { margin: 0; font-family: sans-serif; background:#fff; color:#111; }
+    a { text-decoration: none; color: inherit; }
+    header, footer { display: flex; align-items: center; justify-content: space-between; padding: 15px 50px; background: #f8f8f8; }
+    .logo img { height: 50px; }
+    nav a { margin: 0 15px; font-weight: bold; }
+    nav a.active { color: #333; }
+    .social ul { display: flex; list-style: none; margin:0; padding:0; }
+    .social li { margin-left: 15px; }
+    .social svg { width: 24px; height: 24px; fill: #333; }
+    main { max-width: 800px; margin: 50px auto; padding: 0 20px; }
+    h1 { font-size: 36px; margin-bottom: 20px; }
+    .contact-form { display: flex; flex-direction: column; }
+    .contact-form label { margin-top: 15px; margin-bottom: 5px; }
+    .contact-form input,
+    .contact-form textarea { padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px; }
+    .contact-form button { margin-top: 20px; padding: 10px; font-size: 16px; cursor: pointer; background-color: #333; color: #fff; border: none; border-radius: 5px; transition: background 0.2s ease; }
+    .contact-form button:hover { background-color: #555; }
+    .contact-form-sent { display: none; margin-top: 20px; color: green; font-weight: bold; }
+    footer { flex-direction: column; text-align: center; padding: 30px; }
+    .footer-text { margin-top: 10px; font-size: 14px; color: #777; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="images/logo.png" alt="   "></a>
+    </div>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="index.html">Work</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="social">
+      <ul>
+
+        <li>
+          <a href="https://www.instagram.com/abdulla__designs?igsh=a2JhZXc5c2tiamdq" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24" class="icon">
+              <g>
+                <path d="M15,5.4c2.1,0,2.4,0,3.2,0c0.8,0,1.2,0.2,1.5,0.3c0.4,0.1,0.6,0.3,0.9,0.6c0.3,0.3,0.5,0.5,0.6,0.9c0.1,0.3,0.2,0.7,0.3,1.5c0,0.8,0,1.1,0,3.2s0,2.4,0,3.2c0,0.8-0.2,1.2-0.3,1.5c-0.1,0.4-0.3,0.6-0.6,0.9c-0.3,0.3-0.5,0.5-0.9,0.6c-0.3,0.1-0.7,0.2-1.5,0.3c-0.8,0-1.1,0-3.2,0s-2.4,0-3.2,0c-0.8,0-1.2-0.2-1.5-0.3c-0.4-0.1-0.6-0.3-0.9-0.6c-0.3-0.3-0.5-0.5-0.6-0.9c-0.1-0.3-0.2-0.7-0.3-1.5c0-0.8,0-1.1,0-3.2s0-2.4,0-3.2c0-0.8,0.2-1.2,0.3-1.5c0.1-0.4,0.3-0.6,0.6-0.9c0.3-0.3,0.5-0.5,0.9-0.6c0.3-0.1,0.7-0.2,1.5-0.3C12.6,5.4,12.9,5.4,15,5.4 M15,4c-2.2,0-2.4,0-3.3,0c-0.9,0-1.4,0.2-1.9,0.4c-0.5,0.2-1,0.5-1.4,0.9C7.9,5.8,7.6,6.2,7.4,6.8C7.2,7.3,7.1,7.9,7,8.7C7,9.6,7,9.8,7,12s0,2.4,0,3.3c0,0.9,0.2,1.4,0.4,1.9c0.2,0.5,0.5,1,0.9,1.4c0.4,0.4,0.9,0.7,1.4,0.9c0.5,0.2,1.1,0.3,1.9,0.4c0.9,0,1.1,0,3.3,0s2.4,0,3.3,0c0.9,0,1.4-0.2,1.9-0.4c0.5-0.2,1-0.5,1.4-0.9c0.4-0.4,0.7-0.9,0.9-1.4c0.2-0.5,0.3-1.1,0.4-1.9c0-0.9,0-1.1,0-3.3s0-2.4,0-3.3c0-0.9-0.2-1.4-0.4-1.9c-0.2-0.5-0.5-1-0.9-1.4c-0.4-0.4-0.9-0.7-1.4-0.9c-0.5-0.2-1.1-0.3-1.9-0.4C17.4,4,17.2,4,15,4L15,4L15,4z"/>
+                <path d="M15,7.9c-2.3,0-4.1,1.8-4.1,4.1s1.8,4.1,4.1,4.1s4.1-1.8,4.1-4.1S17.3,7.9,15,7.9L15,7.9z M15,14.7c-1.5,0-2.7-1.2-2.7-2.7c0-1.5,1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7C17.7,13.5,16.5,14.7,15,14.7L15,14.7z"/>
+                <path d="M20.2,7.7c0,0.5-0.4,1-1,1s-1-0.4-1-1s0.4-1,1-1S20.2,7.2,20.2,7.7L20.2,7.7z"/>
+              </g>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <h1>Contact</h1>
+    <form class="contact-form" id="contactForm">
+      <label for="name">Name *</label>
+      <input type="text" id="name" name="name" required placeholder="Your Name...">
+
+      <label for="email">Email Address *</label>
+      <input type="email" id="email" name="email" required placeholder="Your Email Address...">
+
+      <label for="message">Message *</label>
+      <textarea id="message" name="message" required placeholder="Your Message..."></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+    <div class="contact-form-sent" id="responseMessage">Thank you!</div>
+  </main>
+
+  <footer>
+    <div class="social">
+      <ul>
+        
+        <li>
+          <a href="https://www.instagram.com/abdulla__designs?igsh=a2JhZXc5c2tiamdq" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24" class="icon">
+              <g>
+                <path d="M15,5.4c2.1,0,2.4,0,3.2,0c0.8,0,1.2,0.2,1.5,0.3c0.4,0.1,0.6,0.3,0.9,0.6c0.3,0.3,0.5,0.5,0.6,0.9c0.1,0.3,0.2,0.7,0.3,1.5c0,0.8,0,1.1,0,3.2s0,2.4,0,3.2c0,0.8-0.2,1.2-0.3,1.5c-0.1,0.4-0.3,0.6-0.6,0.9c-0.3,0.3-0.5,0.5-0.9,0.6c-0.3,0.1-0.7,0.2-1.5,0.3c-0.8,0-1.1,0-3.2,0s-2.4,0-3.2,0c-0.8,0-1.2-0.2-1.5-0.3c-0.4-0.1-0.6-0.3-0.9-0.6c-0.3-0.3-0.5-0.5-0.6-0.9c-0.1-0.3-0.2-0.7-0.3-1.5c0-0.8,0-1.1,0-3.2s0-2.4,0-3.2c0-0.8,0.2-1.2,0.3-1.5c0.1-0.4,0.3-0.6,0.6-0.9c0.3-0.3,0.5-0.5,0.9-0.6c0.3-0.1,0.7-0.2,1.5-0.3C12.6,5.4,12.9,5.4,15,5.4 M15,4c-2.2,0-2.4,0-3.3,0c-0.9,0-1.4,0.2-1.9,0.4c-0.5,0.2-1,0.5-1.4,0.9C7.9,5.8,7.6,6.2,7.4,6.8C7.2,7.3,7.1,7.9,7,8.7C7,9.6,7,9.8,7,12s0,2.4,0,3.3c0,0.9,0.2,1.4,0.4,1.9c0.2,0.5,0.5,1,0.9,1.4c0.4,0.4,0.9,0.7,1.4,0.9c0.5,0.2,1.1,0.3,1.9,0.4c0.9,0,1.1,0,3.3,0s2.4,0,3.3,0c0.9,0,1.4-0.2,1.9-0.4c0.5-0.2,1-0.5,1.4-0.9c0.4-0.4,0.7-0.9,0.9-1.4c0.2-0.5,0.3-1.1,0.4-1.9c0-0.9,0-1.1,0-3.3s0-2.4,0-3.3c0-0.9-0.2-1.4-0.4-1.9c-0.2-0.5-0.5-1-0.9-1.4c-0.4-0.4-0.9-0.7-1.4-0.9c-0.5-0.2-1.1-0.3-1.9-0.4C17.4,4,17.2,4,15,4L15,4L15,4z"/>
+                <path d="M15,7.9c-2.3,0-4.1,1.8-4.1,4.1s1.8,4.1,4.1,4.1s4.1-1.8,4.1-4.1S17.3,7.9,15,7.9L15,7.9z M15,14.7c-1.5,0-2.7-1.2-2.7-2.7c0-1.5,1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7C17.7,13.5,16.5,14.7,15,14.7L15,14.7z"/>
+                <path d="M20.2,7.7c0,0.5-0.4,1-1,1s-1-0.4-1-1s0.4-1,1-1S20.2,7.2,20.2,7.7L20.2,7.7z"/>
+              </g>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-text">All Rights Reserved. Abdullah Alaradi 2025</div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const form = document.getElementById('contactForm');
+      const responseMessage = document.getElementById('responseMessage');
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        const formData = new FormData(form);
+        const data = {};
+        formData.forEach((v,k)=>data[k]=v);
+
+        // Mock POST request
+        setTimeout(()=>{
+          responseMessage.style.display = 'block';
+          form.reset();
+        }, 500);
+      });
+    });
+  </script>
+</body>
+</html>
