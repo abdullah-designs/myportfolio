@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project – Alsaher</title>
+
+<style>
+  @font-face {
+    font-family: 'FuturaPT';
+    src: 
+         url('futura-pt/my-font.woff') format('woff');
+  }
+
+  :root {
+    --accent: #0a92bf;
+  }
+
+  body {
+    margin: 0;
+    background: #ffffff;
+    color: #111;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
+  }
+
+  /* ---------- NAV ---------- */
+  header {
+    border-bottom: 1px solid #eee;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    z-index: 10;
+  }
+
+  .nav {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-weight: 600;
+    letter-spacing: 0.3px;
+  }
+
+  .logo span {
+    color: var(--accent);
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #555;
+    margin-left: 28px;
+    font-size: 15px;
+    transition: color 0.2s ease;
+  }
+
+  nav a:hover {
+    color: var(--accent);
+  }
+
+  /* ---------- PAGE ---------- */
+  .page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 70px 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  .subtitle {
+    color: #666;
+    max-width: 520px;
+  }
+
+  .accent-line {
+    width: 70px;
+    height: 3px;
+    background: var(--accent);
+    margin: 28px 0 70px;
+  }
+
+  /* ---------- IMAGES ---------- */
+  .image-list {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+  }
+
+  .image-item img {
+    width: 100%;
+    display: block;
+    border-radius: 2px;
+  }
+
+  .caption {
+    margin-top: 14px;
+    font-size: 14px;
+    color: #666;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .caption::before {
+    content: "";
+    width: 16px;
+    height: 2px;
+    background: var(--accent);
+    display: inline-block;
+  }
+
+  /* ---------- FOOTER ---------- */
+  footer {
+    margin-top: 120px;
+    padding: 40px 20px;
+    border-top: 1px solid #eee;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+  }
+
+  footer a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width: 700px) {
+    h1 {
+      font-size: 26px;
+    }
+
+    nav a {
+      margin-left: 18px;
+    }
+
+    .image-list {
+      gap: 70px;
+    }
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="nav">
+   <div class="logo"><img src="images/logo.png" alt="Abdulla Alaradi" style="max-width: 80px; height: auto;"><span>.</span></div>
+    <nav>
+      <a href="index.html">Work</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <h1>CACAO</h1>
+  <p class="subtitle">
+    Packaging-focused branding for CACAO, including sticker designs and a custom box layout. The visuals aim to feel premium yet playful, enhancing the product’s shelf appeal and overall brand experience.
+  </p>
+  <div class="accent-line"></div>
+
+  <section class="image-list">
+
+    <div class="image-item">
+      <img src="images/CACAO/20250326_072221.jpg" alt="Juha Arabic Typeface sample 1">
+    </div>
+
+    <div class="image-item">
+      <img src="images/CACAO/Artboard 365.png" alt="Juha Arabic Typeface sample 2">
+    </div>
+
+    <div class="image-item">
+      <img src="images/BDW/Free_Book_Mockup_6.jpg" alt="Juha Arabic Typeface sample 3">
+    </div>
+
+    <div class="image-item">
+      <img src="images/BDW/Free_Id_Holder_Mockup_5.jpg" alt="Juha Arabic Typeface sample 4">
+    </div>
+
+    <div class="image-item">
+      <img src="images/BDW/Free_Id_Holder_Mockup_2.jpg" alt="Juha Arabic Typeface sample 4">
+    </div>
+
+    <div class="image-item">
+      <img src="images/BDW/Triple_Billboard_Mockup.jpg" alt="Juha Arabic Typeface sample 4">
+    </div>
+
+
+    <div class="image-item">
+      <img src="images/BDW/Free_Business_Cards_Mockup_1.jpg" alt="Juha Arabic Typeface sample 4">
+    </div>
+
+  </section>
+</main>
+
+</body>
+</html>
